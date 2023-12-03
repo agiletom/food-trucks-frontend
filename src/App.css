@@ -1,0 +1,22 @@
+.leaflet-container {
+  margin: 30px auto;
+  height: 500px;
+  z-index: 0;
+  border: 2px solid #333;
+  overflow: hidden;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+header {
+  grid-area: head;
+}
+
+main {
+  width: 80%;
+  margin: 35px auto 0px auto;
+}
